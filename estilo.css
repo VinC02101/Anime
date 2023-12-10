@@ -292,7 +292,7 @@ header {
 }
 
 .catalog-background{
-    background-image: url("media/thumb-1920-532559.jpg");
+    background-image: url(media/thumb-1920-532559.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
