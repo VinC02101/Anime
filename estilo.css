@@ -146,7 +146,7 @@
 /* -------------------- BODY ------------------ */
 body {
     margin: 0px;
-    background-image: url("github.com/VinC02101/Anime/Media/1322308.jpeg");
+    background-image: url("media/1322308.jpeg");
     background-color: rgba(0, 0, 0, 0.514);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ header {
 }
 
 .one-piece-anime-card {
-    background-image: url(Media/onepiece_background.png);
+    background-image: url(media/onepiece_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
