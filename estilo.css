@@ -1,0 +1,548 @@
+/* ---------------------ASIDE------------------ */
+.user-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    height: 70dvh;
+    min-width: fit-content;
+    background-color: #23252b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #4c4f58;
+}
+
+.sumir_aside {
+    visibility: hidden;
+}
+
+.user-menu section {
+    height: 70dvh;
+    overflow-y: scroll;
+}
+
+
+.user-menu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 0px;
+}
+
+.user-menu-header-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    width: 95%;
+    margin: 20px 0px 20px;
+}
+
+.user-menu-header-up img {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-menu-header-up p {
+    font-size: 25px;
+}
+
+.user-menu-header-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: gold;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.user-menu-header-down img {
+    margin-right: 10px;
+}
+
+.user-menu-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.user-menu-main-options nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 5px 0%;
+}
+
+.user-menu-main-options nav a {
+    display: flex;
+    margin: 15px 0px;
+    margin-left: 10%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    min-width: 40%;
+}
+
+.user-menu-main-options nav a:hover {
+    color: orange;
+}
+
+#nav-logos {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-menu-main-options-line {
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-top: 2px solid #4c4f58;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* -------------------ASIDE------------------- */
+
+
+
+
+/* -----------------SCROLLBAR----------------- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(97, 97, 97);
+    border-radius: 2px;
+}
+/* ----------------SCROLLBAR-------------------- */
+
+
+
+
+/* -------------------- BODY ------------------ */
+body {
+    margin: 0px;
+    background-image: url("imagens/1322308.jpeg");
+    background-color: rgba(0, 0, 0, 0.514);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* -------------------- BODY ------------------ */
+
+
+
+/* -------------------- CONTAINER ------------------ */
+
+.container {
+    height: 100dvh;
+}
+/* -------------------- CONTAINER ------------------ */
+
+
+/* -------------------- HEADER ------------------ */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#logo {
+    display: flex;
+    margin: 0%;
+    font-size: 70px;
+    color: rgb(255, 196, 0);
+    text-shadow: 0px 0px 9px red;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#logo-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #23252b;
+    height: 60px;
+}
+
+.header-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header-menu ul li {
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 0px 25px;
+    padding: 0px 10px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.header-menu ul li:hover {
+    color: rgb(255, 196, 0);
+    background-color: #32363d;
+}
+
+.header-user-menu {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.header-user-menu:hover {
+    background-color: #32363d;
+}
+
+
+#user-menu-icon {
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#user-icon-menu-dropdown {
+    height: 25px;
+    cursor: pointer;
+}
+
+/* -------------------- HEADER ------------------ */
+
+
+
+
+
+/* -------------------- MAIN ------------------ */
+.container-main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------- Catalog background function ------- */
+
+.super-onze-anime-card {
+    background-image: url(imagens/elevenstrikerswp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.naruto-anime-card {
+    background-image: url(imagens/naruto-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.one-piece-anime-card {
+    background-image: url(imagens/onepiece_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.catalog-background{
+    background-image: url(imagens/thumb-1920-532559.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.catalog {
+    width: 100%;
+    display: flex;
+    height: 65dvh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.966);
+}
+
+.anime-card {
+    display: flex;
+    background-color: rgba(245, 222, 179, 0.623);
+    height: 330px;
+    width: 240px;
+    border: 2px solid rgba(0, 0, 0, 0.483);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.anime-card:hover {
+    background-color: rgb(245, 222, 179);
+}
+
+.anime-card p {
+    margin-top: 0px;
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.anime-card h2 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.anime-card button {
+    background-color: rgb(49, 188, 49);
+    font-size: 20px;
+    border-radius: 20px;
+    height: 35px;
+    width: 140px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+/* -------------------- MAIN ------------------ */
+
+
+
+
+/* ------------------ SECTIONS ------------------ */
+
+/* estilo da sessão com as infos dos animes */
+
+/***** section que é o pai dos elementos abaixo *****/
+.info_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px white;
+    margin: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 50px;
+}
+/***** section que é o pai dos elementos abaixo *****/
+
+
+
+/* título do anime */
+.info_anime .nome-anime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0px black;
+}
+/* título do anime */
+
+
+
+/* div que é pai da imagem e parágrafo de introdução */
+.info_anime .introdução-anime {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* div que é pai da imagem e parágrafo de introdução */
+
+
+/* imagem de dentro da introdução do anime */
+.info_anime .introdução-anime img {
+    width: 320px;
+    height: 180px;
+    float: left;
+    margin-right: 30px;
+}
+/* imagem de dentro da introdução do anime */
+
+
+
+/* parágrafo de explicação do anime */
+.info_anime .introdução-anime p {
+    margin: 0px;
+    max-width: 50%;
+    font-size: 20px;
+    color: white;
+}
+/* parágrafo de explicação do anime */
+
+
+
+/* parte da lista de epidódios */
+.info_anime .lista-episodios ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 35px 0px;
+    padding: 0px;
+}
+
+.info_anime .lista-episodios li {
+    margin: 15px 0px;
+    font-size: 27px;
+    text-shadow: 5px 5px 5px white;
+    cursor: pointer;
+}
+/* parte da lista de epidódios */
+
+
+
+
+/****** sessão onde há o campo para escrever um comentário ******/
+.comentarios h4 {
+    margin: 0px 0px 10px 60px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.comentarios .area-comentarios {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 12px;
+
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    text-align: start;
+
+    font-size: 20px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.comentarios .area-comentarios textarea {
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+    font-size: 20px;
+}
+
+/* botão para enviar comentário */
+.comentarios .area-comentarios h6 {
+    margin: 0px;
+    margin-left: 3px;
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(205, 196, 196);
+}
+
+
+.comentarios .area-comentarios h6:hover {
+    background-color: rgb(161, 157, 157);
+    cursor: pointer;
+}
+/* botão para enviar comentário */
+
+
+
+/* texto publicado depois de submeter comentário */
+.postagem-comentario {
+    margin: 0px;
+    max-width: 70%;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+.postagem-comentario .p1 {
+    margin: 0px;
+    margin-top: 10px;
+    color: rgb(231, 203, 152);
+}
+
+.postagem-comentario .p2 {
+    margin-top: 3px;
+}
+/* texto publicado depois de submeter comentário */
+
+
+/****** sessão onde há o campo para escrever um comentário ******/
+/* ------------------ SECTIONS ------------------ */
+
+
+
+
+/* sumir as sessões da lista de anime */
+.sumir {
+    display: none;
+}
+
+.sumir-comentario {
+    display: none;
+}
+
+/************************************/

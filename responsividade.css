@@ -1,0 +1,265 @@
+/* -------------------------------LAPTOP----------------------------------------- */
+@media (min-width:768px) and (max-width:1024px) {}
+
+/* -------------------------------TABLET----------------------------------------- */
+@media (min-width:425px) and (max-width:768px) {
+
+    /* ---------------HEADER--------------- */
+    #logo {
+        font-size: 50px;
+    }
+
+    .header-menu {
+        flex-wrap: wrap;
+    }
+
+    .header-menu ul {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .header-menu ul li {
+        flex-wrap: wrap;
+        margin: 0px;
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px 8px;
+    }
+
+    .header-user-menu {
+        padding-right: 8px;
+    }
+
+    /* ------------------------------------- */
+
+    /* -----------------MAIN---------------- */
+
+
+    .container-main {
+        height: auto;
+    }
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        background-image: url(imagens/thumb-1920-532559.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        border-bottom: 10px solid rgba(255, 255, 255, 0.966);
+    }
+
+    .anime-card {
+        padding: 0px 20px;
+    }
+
+    /* ------------------------------------- */
+
+    /* ----------MAIN HIDDEN SECTION-------- */
+    .info_anime {
+        margin: 20px;
+    }
+
+    .info_anime .introdução-anime {
+        flex-direction: column;
+    }
+
+    .info_anime .introdução-anime img {
+        margin: 0px 0px 20px;
+        margin-right: 0px;
+    }
+
+    .info_anime .introdução-anime p {
+        max-width: fit-content;
+        padding: 0px 25px;
+
+        font-size: 15px;
+    }
+
+}
+
+/* ------------------------------MOBILE M---------------------------------------- */
+@media(min-width:0px) and (max-width:425px) {
+
+    /* ---------------HEADER--------------- */
+    #logo {
+        font-size: 30px;
+    }
+
+    #logo-img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .header-menu {
+        width: 100dvw;
+    }
+
+    .header-menu ul {
+        justify-content: stretch;
+        height: 100%;
+    }
+
+    .header-menu ul li {
+        height: 100%;
+        margin: 0px;
+        padding: 0px 5px;
+
+        font-size: 15px;
+    }
+
+    /* ------------------------------------- */
+
+    /* -----------------ASIDE--------------- */
+
+    .user-menu {
+        width: 250px;
+        max-width: 300px;
+    }
+
+    .user-menu-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 5px;
+    }
+
+    .user-menu-header-up {
+        height: 40px;
+        margin-right: 0%;
+        margin: 0px 0px 10px;
+    }
+
+    .user-menu-header-up img {
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .user-menu-header-up p {
+        font-size: 15px;
+        margin-right: 0%;
+    }
+
+    .user-menu-main-options nav a {
+        display: flex;
+        margin: 5px 0px;
+        margin-left: 10%;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        min-width: 40%;
+    }
+
+    .user-menu-header-down {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    #logout {
+        height: 60px;
+        font-size: 15px;
+    }
+
+    /* ------------------------------------- */
+
+
+    /* -----------------MAIN---------------- */
+
+
+    .container-main {
+        height: auto;
+    }
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        background-image: url(imagens/thumb-1920-532559.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        border-bottom: 10px solid rgba(255, 255, 255, 0.966);
+    }
+
+    /* ------------------------------------- */
+
+    /* ----------MAIN HIDDEN SECTION-------- */
+    .info_anime {
+        margin: 20px;
+    }
+
+    .info_anime .introdução-anime {
+        flex-direction: column;
+    }
+
+    .info_anime .introdução-anime img {
+        margin: 0px 0px 20px;
+        margin-right: 0px;
+    }
+
+    .info_anime .introdução-anime p {
+        max-width: fit-content;
+        padding: 0px 25px;
+
+        font-size: 15px;
+    }
+
+    .info_anime .lista-episodios ul {
+        margin: 5px 0px;
+    }
+
+    .info_anime .lista-episodios ul li {
+        margin: 5px;
+    }
+
+
+}
+
+/* ------------------------------MOBILE P---------------------------------------- */
+@media(max-width:425px) {
+
+    /* ----------- ASIDE --------- */
+    .user-menu-header-down {
+        height: 30px;
+    }
+
+    /* --------------------------- */
+
+    /* ----------- HEADER -------- */
+    .header-menu {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-user-menu {
+        padding: 0%;
+        height: 30px;
+    }
+
+    #user-menu-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    #user-icon-menu-dropdown {
+        height: 15px;
+        width: 15px;
+    }
+
+    /* ---------------------------- */
+
+    .nome-anime {
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+
+    .info_anime .introdução-anime img {
+        width: 240px;
+        height: 150px;
+    }
+
+}
