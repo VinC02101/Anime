@@ -175,10 +175,6 @@
     .catalog {
         display: flex;
         flex-direction: column;
-        background-image: url(imagens/thumb-1920-532559.jpg);
-        background-size: cover;
-        background-repeat: repeat;
-        background-position: center;
         width: 100%;
         height: auto;
         border-bottom: 10px solid rgba(255, 255, 255, 0.966);
