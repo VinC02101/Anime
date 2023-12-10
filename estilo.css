@@ -271,28 +271,28 @@ header {
 /* --------- Catalog background function ------- */
 
 .super-onze-anime-card {
-    background-image: url(media/elevenstrikerswp.jpg);
+    background-image: url("media/elevenstrikerswp.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .naruto-anime-card {
-    background-image: url(media/naruto-background.jpg);
+    background-image: url("media/naruto-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .one-piece-anime-card {
-    background-image: url(media/onepiece_background.png);
+    background-image: url("media/onepiece_background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .catalog-background{
-    background-image: url(/media/thumb-1920-532559.jpg);
+    background-image: url("media/thumb-1920-532559.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
